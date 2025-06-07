@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Styles/normalize.min.css">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Nikita Diugurov (JAVA28-31) HW12</title>
+</head>
+<body>
+<header>
+    <h1>Homework 12. DOM manipulation.</h1>
+</header>
+<main>
+    <h2>ToDo List</h2>
+    <section class="add_task">
+        <input type="text" id="task_text" maxlength="60" placeholder="Enter the task">
+        <div class="btn add_btn">Add task</div>
+        <div class="btn clear_btn">Clear</div>
+    </section>
+    <section class="radio_btns">
+        <input type="radio" id="radio_all" name="select" value="radio_all" checked>
+        <label for="radio_all">All</label>
+        <input type="radio" id="radio_active" name="select" value="radio_active">
+        <label for="radio_active">Active</label>
+        <input type="radio" id="radio_done" name="select" value="radio_done">
+        <label for="radio_done">Done</label>
+    </section>
+    <section class="tasks">
+        <ul class="tasks_list">
+
+        </ul>
+    </section>
+    <div class="btn clear_all_btn">Clear ALL</div>
+</main>
+<footer>
+    Nikita Diugurov (JAVA28-31) &copy
+</footer>
+<script src="./Scripts/todo.js">
+
+</script>
+</body>
+</html>
