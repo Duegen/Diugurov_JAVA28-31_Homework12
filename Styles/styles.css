@@ -140,7 +140,11 @@ li > img {
     background-color: red;
     opacity: 0.5;
 }
-
+.not_found{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
 footer {
     text-align: center;
     height: 3rem;
