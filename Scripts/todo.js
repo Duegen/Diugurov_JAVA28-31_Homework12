@@ -11,12 +11,11 @@ clear_btn.onclick = () => {
 }
 
 clear_all_btn.onclick = () => {
-    const tasks_array = document.querySelectorAll("li");
     let result = window.confirm("Do you want to delete ALL tasks?");
 
     if (result) {
-        for (let i = 0; i < tasks_array.length; i++)
-            tasks_array[i].remove();
+        while(tasks.childNodes.length)
+            tasks.childNodes[0].remove()
     }
     not_found.style.display = "block";
     document.querySelector("#radio_all").checked = true;
