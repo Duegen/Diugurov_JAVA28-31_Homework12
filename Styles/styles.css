@@ -141,7 +141,13 @@ li > img {
     height: 2rem;
     cursor: pointer;
 }
-
+.img_close{
+    background-image: url("./Images/icon_close.png");
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 .clear_all_btn {
     margin-top: 20px;
 }
